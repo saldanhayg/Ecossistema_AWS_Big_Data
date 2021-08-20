@@ -18,12 +18,14 @@ Repositório de cógido do Dio Live Coding com AWS EMR e Python
   <img src="https://i.ibb.co/X41pY79/5.png" alt="5" border="0">
 </h2>
 
-## Passo a Passo 
+## Pratica
+
 <h2>
    <img src="https://i.ibb.co/RvqfMYj/3.png" alt="3" border="0">  
 </h2>
 <br>
-<br>
+
+## Passo a Passo 
 * Acessar S3: https://s3.console.aws.amazon.com/s3/ 
   * Criar estrutura de data lake : _dio-datalake
   * Criar estrutura de pastas
@@ -56,6 +58,7 @@ Repositório de cógido do Dio Live Coding com AWS EMR e Python
 * Ambiente virtual python: source venv_teste/bin/activate
   * _nano ~/.mrjob.conf_
   * _python3 dio-wordcount.py -r emr s3://{your_s3_bucket_name}/data/SherlockHolmes.txt --output-dir=s3://{your_s3_bucket_name}/output/logs1 --cloud-tmp-dir=s3://{your_s3_bucket_name}/temp/_
+
 
 ## Me siga nas redes sociais
 
